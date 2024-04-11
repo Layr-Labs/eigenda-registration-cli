@@ -14,3 +14,5 @@ go build -v -o eigenda-registration main.go
       --churner-url churner-preprod-holesky.eigenda.xyz:443 \
       --bls-key-password "password"
 ```
+
+It generates `OperatorKickParamters` and `ChurnApproverSignature` which can be used to register the operator on EigenDA.
