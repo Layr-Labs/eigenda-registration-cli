@@ -11,7 +11,7 @@ go build -v -o eigenda-registration main.go
 ./eigenda-registration --operator-address 0x2222aac0c980cc029624b7ff55b88bc6f63c538f \
       --quorums 0 \
       --bls-key-path /Users/ubuntu/.eigenlayer/operator_keys/test.bls.key.json \
-      --churner-url churner-preprod-holesky.eigenda.xyz:443 \
+      --churner-url churner-holesky.eigenda.xyz:443 \
       --bls-key-password "password"
 ```
 
